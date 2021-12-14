@@ -1,0 +1,128 @@
+.footer{
+	
+	max-width: 1920px;
+	padding: 1px 184px 38px 201px;
+	margin: auto;
+	background-color: #fff;
+	
+
+}
+.footer__block{
+
+	display: flex;
+	justify-content: space-between;
+margin-bottom: 51px;
+}
+.footer__contacts{
+	width: 18%;
+
+}
+.footer__logo{
+	display: flex;
+}
+.logo-footer{
+	width: 43px;
+	//height: 65.89px;
+	margin-right: 18px;
+	margin-top: -6px;
+	object-fit: contain;
+}
+.footer__item{
+	color: #2B2E34;
+	font-size: 18px;
+	font-weight: 500;
+	position: relative;
+	padding-left:0;
+	margin-bottom: 22px;
+	width: 100%;
+	text-align: left;
+	padding-right: 20px;
+}
+.footer__category{
+	display: flex;
+	flex-direction: column;
+	// width: 33%;
+}
+.footer__info{
+	display: flex;
+	flex-direction: column;
+	// width: 10%;
+}
+.footer__category a, .footer__info a{
+	font-size: 16px;
+	line-height: 33px;
+	color: #7E838C;
+}
+.footer__phone{
+	padding-bottom: 12px;
+	padding-top: 54px;
+}
+.footer__phone a, .footer__email a{
+	color: #2B2E34;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 8px;
+}
+.footer__network p:first-child{
+	color: #2B2E34;
+	font-weight: 500;
+	font-size: 18px;
+}
+.footer__network p:first-child{
+	padding-bottom:13px;
+}
+.footer__network p:nth-child(2){
+	display: inline-block;
+}
+.footer__network p:nth-child(3){
+	display: inline-block;
+	padding-left: 19px;
+}
+.footer__network p:nth-child(2) img{
+	padding-right: 7px;
+	padding-bottom: 8px;
+}
+.footer__network p:nth-child(3) img{
+	padding-right: 10px;
+	padding-bottom: 8px;
+}
+.footer__phone img, .footer__email img{
+	padding-bottom: 8px;
+}
+.footer__mode{
+	padding-bottom:52px;
+word-spacing: 4px;
+}
+.footer__mode p:first-child{
+	padding-bottom:5px;
+}
+.footer__email{
+	padding-bottom: 46px;
+}
+.footer__copyright{
+	padding-top: 49px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	&:after{
+		background-color: #d9dae1;
+		content: "";
+		top: 0;
+		height: 2px;
+		position: absolute;
+		width: 100%;
+	}
+}
+.footer__copyright a img{
+padding-left: 17px;
+
+}
+
+.footer__copyright a{
+	padding-bottom: 26px;
+	letter-spacing: 0.6px;
+}
+
+.footer__copyright a img{
+	padding-left: 11px;
+}
